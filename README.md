@@ -10,7 +10,7 @@ author: martinsawicki
   Making use of the reactive pattern in a complex virtual machine creation scenario
  
   This sample shows how the reactive pattern (RXJava's Observables) supported by the Azure Libraries for Java in their asynchronous API
-  can be used for handling some more complex real world scenarios with relative ease, involving distributed computation in the cloud.
+  can be used for handling some more complex real world scenarios involving distributed computation in the cloud with relative ease.
   The specific example here shows how Observables enable real time tracking of the creation of many virtual machines in parallel and
   all their related resources. Since Azure does not support transactional creation of virtual machines (no automatic rollback in case
   of failure), this could be useful for example for the purposes of deleting "orphaned" resources, whenever the creation of some other
