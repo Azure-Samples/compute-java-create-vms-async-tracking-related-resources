@@ -1,7 +1,7 @@
 ---
 services: Compute
 platforms: java
-author: martinsawicki
+author: yaohaizh
 ---
 
 ## Getting Started with Compute - Create Virtual Machines Async Tracking Related Resources - in Java ##
@@ -29,7 +29,7 @@ author: martinsawicki
 
 To run this sample:
 
-Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-sdk-for-java/blob/master/AUTH.md).
+Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-libraries-for-java/blob/master/AUTH.md).
 
     git clone https://github.com/Azure-Samples/compute-java-create-vms-async-tracking-related-resources.git
 
