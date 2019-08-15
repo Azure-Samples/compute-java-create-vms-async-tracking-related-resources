@@ -4,12 +4,12 @@ languages:
 - java
 products:
 - azure
-services: Compute
-platforms: java
-author: yaohaizh
+extensions:
+- services: Compute
+- platforms: java
 ---
 
-## Getting Started with Compute - Create Virtual Machines Async Tracking Related Resources - in Java ##
+# Getting Started with Compute - Create Virtual Machines Async Tracking Related Resources - in Java #
 
 
   Making use of the reactive pattern in a complex virtual machine creation scenario
