@@ -4,9 +4,8 @@ languages:
 - java
 products:
 - azure
-extensions:
-- services: Compute
-- platforms: java
+description: "Making use of the reactive pattern in a complex virtual machine creation scenario"
+urlFragment: compute-java-create-vms-async-tracking-related-resources
 ---
 
 # Getting Started with Compute - Create Virtual Machines Async Tracking Related Resources - in Java #
